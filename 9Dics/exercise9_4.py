@@ -42,16 +42,11 @@ for line in handle:
         continue
     if words[0] != 'From' : 
         continue
-    for word in words:
-        #parse out the email address portion
-        emailtext = words[1]
-        print 'the email address is: ', emailtext
-        #use the .get() idiom as more concise logic than the if statement below
-        d[emailtext] = d.get(emailtext,0)+1
-        print[emailtext]
-
+    #parse out the email address portion
+    emailtext = words[1]
+    #use the .get() idiom as more concise logic than the if statement below
+    d[emailtext] = d.get(emailtext,0)+1   
 for key in sorted(d):
-    print key, d[key]
     if largest is None or d[key] > largest :
         largest = d[key]
         prolific = key
