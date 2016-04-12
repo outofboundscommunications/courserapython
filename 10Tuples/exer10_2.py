@@ -3,8 +3,8 @@
 '''
 10.2 Write a program to read through the mbox-short.txt and figure out the distribution by hour of the day 
 for each of the messages. 
-You can pull the hour out from the 'From ' line by finding the time and then splitting 
-the string a second time using a colon.
+You can pull the hour out from the 'From ' line by finding the time and then 
+splitting the string a second time using a colon.
 
 From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
 
@@ -23,6 +23,19 @@ Desired Output
 17 2
 18 1
 19 1
+
+04 3                                                                                                                                                                 
+06 1                                                                                                                                                                 
+07 1                                                                                                                                                                 
+09 2                                                                                                                                                                 
+10 3                                                                                                                                                                 
+11 6                                                                                                                                                                 
+14 1                                                                                                                                                                 
+15 2                                                                                                                                                                 
+16 4                                                                                                                                                                 
+17 2                                                                                                                                                                 
+18 1                                                                                                                                                                 
+19 1 
 
 '''
 
@@ -44,50 +57,29 @@ except :
 #read each line of opened file and process
 for line in fhand:
     line = line.rstrip()
-    #split the line into words
-    words = line.split()
-    if len(words) == 0 : 
+    #if the line doesn't start with 'From' then skip
+    if not line.startswith("From ") : 
         continue
-    if words[0] != 'From' : 
-        continue
-    #You can pull the hour out from the 'From ' line by finding the time and then splitting
-    #the string at the colon
-    timepos = line.find(":")
-    print timepos
-    
-    hourOfDay = timeOfDayFrag
-    colonpos = line.find('0')
-    numText = line[zeropos:]
-    numFloat = float(numText)
-    print myHourMinSecList
-    #2. Count the number of messages from each person using a dictionary.
-    #parse out the hour element from the list
-    myHour = myHourMinSecList[0]
-    hourInt = int(myHour)
-    d[hourInt] = d.get(hourInt,0)+1   
+    timePos = line.find(":")
+    hourPos = timePos-2
+    theHour = line[hourPos:timePos]
+    #print line,'the hour is: ', theHour
+    d[theHour] = d.get(theHour,0)+1   
+#print d
 
-for k,v in d:
+#so we can sort the dict, lets convert to list of tuples
+t = d.items()
+#print t
+
+t.sort()
+#print t
+
+'''
+for k in d:
+    print k,d[k]
+
+'''
+#print the final sorted list of time of day and counts using the sorted list of tuples
+for k,v in t:
     print k,v
     
-'''
-
-# Create a blank list
-clist = []
-
-for k in d:
-    #append the value, index to the tuple list (clist)
-    clist.append((d[k],k))
-
-print "\n"
-#print sorted list ###
-#sort the list in reverse order and print out the person who has the most commits.
-clist.sort(reverse=True)
-print 'the sorted list is: ',clist
-
-print "\n"
-
-print 'the sorted list, unpacked, is:'
-for v,k in clist:
-    print v,k
-
-'''
