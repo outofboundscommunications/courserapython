@@ -1,0 +1,40 @@
+Python Installation Links
+Sue BlumenbergTeaching StaffUnit: Installing and Using Python · 4 months ago · Edited
+Here are links to websites where you can download Python 2 and the most common Mac and Windows source code editors.
+
+Python: https://www.python.org/downloads/.
+
+Install Python 2, not Python 3. The latest release is 2.7.11, but earlier versions of Python 2 are fine for this course.
+
+Python will already be installed for most Mac and Linux users. You can check the version by typing python at a command prompt.
+
+Python for Windows:
+
+For 32-bit Windows, download the Windows x86 MSI installer.
+For 64-bit Windows, download the Windows x86-64 MSI installer.
+Be sure to to pick <Add python.exe to Path> during the installation to avoid the message "python is not recognized as an internal or external command". This gives Windows the location of python.exe.
+
+Here is a screenshot:
+
+
+Notes:
+
+The option to add to Path does not appear in versions earlier than 2.7.8.
+This option is not selected by default. if you re-run the exe installation file you can choose to "change python". This then allows you to install the option to specify the path.
+If you are on a Mac, you do not need to install Python, but you can use these links if you want to upgrade to the latest version, We recommend using version 2.7.8 or later.
+
+For Mac OS X 10.5, download Mac OS X 32-bit i386/PPC installer.
+For Mac OS X 10.6 or later, download Mac OS X 64-bit/32-bit installer.
+Do not uninstall the version that came with your operating system.
+
+
+Notepad++ (Windows text editor): https://notepad-plus-plus.org/download/v6.8.8.html
+
+The latest release of Notepad++ is v6.8.8, but if you already have an earlier version installed, this is fine.
+
+TextWrangler (Mac text editor): http://www.barebones.com/products/textwrangler/download.html
+
+TextWrangler 4.5.12 requires OS X 10.6.8 or later (10.7.5, 10.8.5, 10.9.2 or later recommended)
+
+For OS X 10.5, download http://pine.barebones.com/freeware/TextWrangler_3.5.3.dmg
+

@@ -13,14 +13,14 @@ import string
 
 fname = raw_input('Enter the file name: ')
 if len(fname)==0:
-    fname = "feed.csv"
+    fname = "mbox-short.txt"
 try:
     fhand = open(fname)
 except:
     print 'File cannot be opened:', fname
     exit()
     
-product = dict()
+products = []
 
 lineCount = 0
 
@@ -30,7 +30,9 @@ for line in fhand:
     words = line.split(",")
     if len(words)==0:
         continue
-    lineCount = lineCount +1
-    #print 'the itemID is: ' , words[0]
+    products.append(line)
+    
 #print counts
-print 'the number of lines is: ', lineCount
+print 'the number of lines is: ', len(products)
+ne[n]
+    n = n+1

@@ -13,6 +13,8 @@ You can download the sample data at http://www.pythonlearn.com/code/words.txt
 #prompt for file name
 inpfile = raw_input("Enter file name:")
 
+myCounter = 0
+
 #open that file
 fhand = open(inpfile,'r')
 for line in fhand:
