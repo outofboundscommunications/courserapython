@@ -73,36 +73,26 @@ targetPosition =int(raw_input('Enter position:'))
 
 #define list to store links found
 #add the first url (fikret)
-linksFound =['fikret']
+linkTextFound =['Fikret']
 
-#define function for fetching
-def fetchLinks(targetPosition,urlToFetch):
-    currentPosition=0
+count = 0
+while count < counter:
     html = urllib.urlopen(urlToFetch).read()
+    print 'retrieving: ', urlToFetch
     soup = BeautifulSoup(html)
-    # Retrieve all of the anchor tags
+    # Retrieve link at position 3
     tags = soup('a')
-    for tag in tags:
-        theLink = tag.get('href', None)
-        print 'Retrieving:',theLink
-        currentPosition = currentPosition + 1
-        if currentPosition == targetPosition:
-            #print 'the link at your target position of: ', targetPosition,' is: ', theLink
-            #print 'TAG:',tag
-            #print 'URL:',tag.get('href', None)
-            #print 'Content:',tag.contents[0]
-            linkToFollow = theLink
-            anchorText = tag.contents[0]
-            #add this link to the list
-            linksFound.append(anchorText)
-            print 'the new link to follow is: ', linkToFollow
-            print 'the anchor text is: ', anchorText
-            return urlToFetch
-     
-n=0
-while n<counter:
-    fetchLinks(targetPosition,urlToFetch)
-    n=n+1
-      
-for item in linksFound:
+    myhref = tags[2].get('href', None)
+    mycontent = tags[2].contents[0]
+    linkTextFound.append(mycontent)
+    urlToFetch = myhref
+    count = count+1
+
+print linkTextFound
+finalElement = len(linkTextFound)-1
+print finalElement
+for item in linkTextFound:
     print item
+print 'the answer to the problem is: ', linkTextFound[finalElement]
+
+    
