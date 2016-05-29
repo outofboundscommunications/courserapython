@@ -73,17 +73,17 @@ targetPosition =int(raw_input('Enter position:'))
 
 #define list to store links found
 #add the first url (fikret)
-linkTextFound =['Fikret']
+linkTextFound =['Mercedes']
 
 count = 0
 while count < counter:
     html = urllib.urlopen(urlToFetch).read()
     print 'retrieving: ', urlToFetch
     soup = BeautifulSoup(html)
-    # Retrieve link at position 3
+    # Retrieve link at position requested
     tags = soup('a')
-    myhref = tags[2].get('href', None)
-    mycontent = tags[2].contents[0]
+    myhref = tags[targetPosition-1].get('href', None)
+    mycontent = tags[targetPosition-1].contents[0]
     linkTextFound.append(mycontent)
     urlToFetch = myhref
     count = count+1
