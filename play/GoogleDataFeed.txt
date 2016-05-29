@@ -1,0 +1,35 @@
+id,title,description,condition,price,availability,link,image link,gtin,mpn,brand,google product category,shipping weight,sale price,sale price effective date,additional image link,product type
+5089016,Wonders of the World Desk Calendar,"This small format desk calendar is narrow and spiral bound and  features photographs of landmarks around the world. It is    different   than our original desk calendars as it features only 6 pages    plus  cover for  possibly&nbsp;reduced postal rates.* Planning pages are not     included.
+July through December pages are printed on the back of the January     through  June pages. When you turn the page from June, simply turn the     calendar around  and the rest of the year continues. Your imprint is  on    both sides of the  calendar, so your name stays at the bottom of  the    current month.
+Monthly images:
+
+
+
+
+*Check with your post office for postage rates.&nbsp; Any     additional  inserts will increase postage.&nbsp; Postage rates and     regulations vary by year and  post office. We recommend that you request     a free sample and take it to your local  post office.
+Please note: Small format desk calendars will ship separately from all other  items.
+&nbsp;",New,69.00 USD,in stock,https://postycards.com/catalog/product/Wonders_of_the_World_5089016,https://postycards.com/images/fck/Exterior/2015%20Cal/WW16.cvr.blank.jpg,,5089016,Posty Cards Inc.,"Office Supplies > Filing & Organization > Calendars, Organizers & Planners",1 lb,,,,Business Calendars > Desk Calendars
+5099016,Scenes Across America Desk Calendar,"This small format desk calendar is narrow and spiral bound and  features scenic photographs from across North America. It is     different  than our original desk calendars as it features only 6 pages     plus cover for  possibly&nbsp;reduced postal rates.* Planning pages are  not    included.
+July through December pages are printed on the back of the January     through  June pages. When you turn the page from June, simply turn the     calendar around  and the rest of the year continues. Your imprint is  on    both sides of the  calendar, so your name stays at the bottom of  the    current month.
+Monthly images:
+
+
+
+
+*Check with your post office for postage rates.&nbsp; Any     additional  inserts will increase postage.&nbsp; Postage rates and     regulations vary by year and  post office. We recommend that you request     a free sample and take it to your local  post office.
+Please note: Small format desk calendars will ship separately from all other  items.
+&nbsp;",New,69.00 USD,in stock,https://postycards.com/catalog/product/Scenes_Across_America_5099016,https://postycards.com/images/fck/Exterior/2015%20Cal/SA16cvr.blank.jpg,,5099016,Posty Cards Inc.,"Office Supplies > Filing & Organization > Calendars, Organizers & Planners",1 lb,,,,Business Calendars > Desk Calendars
+106G-W,Tulips Greeting Card,"These bright and cheerful tulips are sure to make their day. Featuring FSC&reg; certified paper and gold foil embossing.
+Includes 26 gold foil lined envelopes for every 25 cards ordered.",New,36.00 USD,in stock,https://postycards.com/catalog/product/Tulips_106G,https://postycards.com/images/fck/Exterior/2011%20AO/106.jpg,,106G-W,Posty Cards Inc.,Arts & Entertainment > Party & Celebration > Gift Giving > Greeting & Note Cards,1 lb,,,,General greeting cards
+110U-X,Corporate Happy Birthday Greeting Card,"A simple birthday card with muted colors and featuring FSC&reg; certified paper and gold foil embossing.
+Includes 26 white envelopes for every 25 cards ordered.",New,30.00 USD,in stock,https://postycards.com/catalog/product/Corporate_Happy_Birthday_110U,https://postycards.com/images/fck/Exterior/2011%20AO/110.jpg,,110U-X,Posty Cards Inc.,Arts & Entertainment > Party & Celebration > Gift Giving > Greeting & Note Cards,1 lb,,,,Birthday cards
+111U-X,Patriotic Birthday Greeting Card,"This executive birthday card has a subtly patriotic theme. Featuring FSC&reg; certified paper and silver foil embossing.
+Includes 26 white envelopes for every 25 cards ordered.",New,30.00 USD,in stock,https://postycards.com/catalog/product/Patriotic_Birthday_111U,https://postycards.com/images/fck/Exterior/2011%20AO/111.jpg,,111U-X,Posty Cards Inc.,Arts & Entertainment > Party & Celebration > Gift Giving > Greeting & Note Cards,1 lb,,,,Birthday cards
+113U-X,Stroll in the Park Greeting Card,"This picturesque park scene makes you feel like you are there. Featuring gold foil embossing on FSC&reg; certified paper.
+Includes 26 white envelopes for every 25 cards ordered.",New,30.00 USD,in stock,https://postycards.com/catalog/product/Stroll_in_the_Park_113U,https://postycards.com/images/fck/Exterior/2011%20AO/113.jpg,,113U-X,Posty Cards Inc.,Arts & Entertainment > Party & Celebration > Gift Giving > Greeting & Note Cards,1 lb,,,,General greeting cards
+119U-X,Coastal Golf Greeting Card,"A scenic golf course overlooking the ocean. Featuring gold foil embossing and FSC&reg; certified paper.
+Includes 26 white envelopes for every 25 cards ordered.",New,30.00 USD,in stock,https://postycards.com/catalog/product/Coastal_Golf_119U,https://postycards.com/images/fck/Exterior/2011%20AO/119.jpg,,119U-X,Posty Cards Inc.,Arts & Entertainment > Party & Celebration > Gift Giving > Greeting & Note Cards,1 lb,,,,General greeting cards
+120U-X,Early Morning Tee Greeting Card,"This golf birthday card features the sun rising on a scenic golf course and gold foil embossing. Printed on FSC&reg; certified paper.
+Includes 26 white envelopes for every 25 cards ordered.",New,30.00 USD,in stock,https://postycards.com/catalog/product/Early_Morning_Tee_120U,https://postycards.com/images/fck/Exterior/2011%20AO/120.jpg,,120U-X,Posty Cards Inc.,Arts & Entertainment > Party & Celebration > Gift Giving > Greeting & Note Cards,1 lb,,,,Birthday cards
+123U-X,Bonds Birthday Greeting Card,"A financial birthday card featuring textured gold foil stamping and FSC&reg; certified paper.
+Includes 26 white envelopes for every 25 cards ordered.",New,30.00 USD,in stock,https://postycards.com/catalog/product/Bonds_Birthday_123U,https://postycards.com/images/fck/Exterior/2011%20AO/123.jpg,,123U-X,Posty Cards Inc.,Arts & Entertainment > Party & Celebration > Gift Giving > Greeting & Note Cards,1 lb,,,,Birthday cards

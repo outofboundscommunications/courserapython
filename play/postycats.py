@@ -31,7 +31,9 @@ for line in fhand:
     #strip end of line character
     line = line.rstrip()
     #use regex to add each number found to list
-    lst = re.findall('subcategory_[0-9].*title=.*?>' , line)   
+    #lst = re.findall('subcategory_[0-9].*title=.*?>' , line) 
+    #lst = re.findall('<a href=.*>?$' , line) 
+    lst = re.findall('subcategory_[0-9].*' , line) 
     #if row/list length is >0, then we have a match and need to store
     if len(lst) >0:
         categories.append(lst)
