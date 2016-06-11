@@ -75,22 +75,15 @@ input = '''
 
 '''
 mySum = 0
-while True:
-    url = raw_input('Enter url: ')
-    if len(url) < 1 : 
-        break
-    print 'Retrieving', url
-    #fetch data
-    uh = urllib.urlopen(url)
-    data = uh.read()
-    print 'Retrieved',len(data),'characters'
-    print data
-    
-    js = json.loads(data)
-    
-    for comments in js["comments"]:
-        print js["comments"]["name"]
-        print js["comments"]["count"]
-        mySum = mySum + int(js["comments"]["count"])
+
+info = json.loads(input)
+print 'User count:', len(info)
+
+print info
+
+for item in info["comments"]:
+    print item["name"]
+    print item["count"]
+    mySum = mySum +int(item["count"])
 
 print mySum
