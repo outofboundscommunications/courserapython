@@ -48,7 +48,7 @@ for line in fhand:
     line = line.rstrip()
     #example string: http://postycards.com/catalog/product/Patriotic_Ornament_X549S
     if re.search('product',line):
-        mysku = re.findall('_(.*$)',line)  
+        mysku = re.findall('_.*?',line)  
         activeSkus.append(mysku)
 
 for sku in activeSkus:
