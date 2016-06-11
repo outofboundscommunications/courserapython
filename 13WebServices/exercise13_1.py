@@ -70,6 +70,7 @@ while True:
     print 'comment count:', len(lst)
     
 mySum = 0
+
 for item in lst:
     print 'Name:',item.find('name').text
     print 'Count:',item.find('count').text

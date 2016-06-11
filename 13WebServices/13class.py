@@ -1,6 +1,5 @@
-__author__ = 'outofboundscommunications'
-#To change this template use Tools | Templates.
 
+'''
 import xml.etree.ElementTree as ET
 
 
@@ -40,6 +39,7 @@ print 'Attr:',tree.find('email').get('hide')
 print 'Name:',tree.find('phone').text
 
 '''
+'''
 tree = ET.fromstring(data)
 
 lst = tree.findall('comments/comment')
@@ -52,4 +52,29 @@ for item in lst:
     mySum = mySum + int(item.find('count').text)
 
 print 'the sum is: ', mySum
+
+'''
+
+import json
+
+input = '''
+[
+  { "id" : "001",
+    "x" : "2",
+    "name" : "Chuck"
+  } ,
+  { "id" : "009",
+    "x" : "7",
+    "name" : "Brent"
+  } 
+]'''
+    
+
+info = json.loads(input)
+print 'User count:', len(info)
+
+for item in info:
+    print 'Name', item['name']
+    print 'Id', item['id']
+    print 'Attribute', item['x']
 
