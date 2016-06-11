@@ -58,23 +58,17 @@ print 'the sum is: ', mySum
 import json
 
 input = '''
-[
-  { "id" : "001",
-    "x" : "2",
-    "name" : "Chuck"
-  } ,
-  { "id" : "009",
-    "x" : "7",
-    "name" : "Brent"
-  } 
-]'''
+{ "id" : "001",
+  "x" : "2",
+  "name" : "Chuck"
+} '''
     
 
 info = json.loads(input)
 print 'User count:', len(info)
+print info
 
-for item in info:
-    print 'Name', item['name']
-    print 'Id', item['id']
-    print 'Attribute', item['x']
+print 'Name', info['name']
+print 'Id', info['id']
+print 'Attribute', info['x']
 
